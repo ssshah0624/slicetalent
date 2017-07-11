@@ -21,12 +21,12 @@
       bottom:0;
       top:0;
       border:0;
-      background-color: transparent;
+      background:none transparent;
     }
   </style>
 </head>
 <body>
-  <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://sunny269.typeform.com/to/mMMGSc"></iframe>
+  <iframe id="typeform-full" width="100%" height="100%" frameborder="0" allowtransparency="true" src="https://sunny269.typeform.com/to/mMMGSc"></iframe>
   <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js"></script>
   <img src="http://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png" alt="Y Combinator" style="width:304px;height:228px;">
 </body>
