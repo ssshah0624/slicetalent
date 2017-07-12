@@ -8,7 +8,8 @@
 
 <style>
 	body, html {height:100%;}
-	body {overflow: hidden; }
+	body {overflow: hidden;}
+	th {padding-top: 10px;}
 </style>
 
 <script>
@@ -44,26 +45,33 @@ $(document).ready(function() {
 });
 
 </script>
-<div id="logoTable" style="width:100%;height:20vH;">
+<div id="logoTable" style="width:100%;height:20vH;background-color:rgb(250,250,250);">
 	<table style="width:100%">
 	  <tr>
 	  	<th><img src="http://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png" alt="Y Combinator" style="width:30px;height:30px;"></th>
 		<th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Google-favicon-2015.png/150px-Google-favicon-2015.png" alt="Google" style="width:30px;height:30px;"></th> 
-		<th><img src="http://www.turnerduckworth.com/media/filer_public/86/18/86187bcc-752a-46f4-94d8-0ce54b98cd46/td-amazon-smile-logo-01-large.jpg" alt="Amazon" style="width:30px;height:30px;"></th> 
+		<th><img src="https://s3.amazonaws.com/BURC_Pages/downloads/a-smile_color.png" alt="Amazon" style="width:30px;height:30px;"></th> 
 		<th><img src="https://cdn.worldvectorlogo.com/logos/slack-1.svg" alt="Slack" style="width:30px;height:30px;"></th> 
-		<th><img src="https://static1.squarespace.com/static/5134cbefe4b0c6fb04df8065/t/587fa2f4725e255a02f090cb/1484759799314/squarespace-logo-symbol-black.jpg" alt="Squarespace" style="width:30px;height:30px;"></th> 
-		<th><img src="https://sendgrid.com/wp-content/themes/sgdotcom/pages/resource/brand/2016/SendGrid-Logomark.png" alt="Sendgrid" style="width:30px;height:30px;"></th> 
+		<th><img src="https://image.flaticon.com/icons/svg/34/34314.svg" alt="Squarespace" style="width:30px;height:30px;"></th> 
+		<th><img src="https://cdn.worldvectorlogo.com/logos/sendgrid-1.svg" alt="Sendgrid" style="width:30px;height:30px;"></th> 
 		<th><img src="https://upload.wikimedia.org/wikipedia/en/7/71/Optimizely-logo.png" alt="Optimizely" style="width:30px;height:30px;"></th> 
 	  </tr>
 	</table>
 </div>
 
 <script>
-$(document).ready(function() {
-	$('.button.general.full.enabled.hover-effect').click(function() {
-	  console.log('#someButton was clicked');
-	  $('#logoTable').hide();
-	});
+var buttonExists = false;
+var t = setInterval(
+	if(document.getElementById('save')){
+            //your code goes here
+        }
+	,1000);
+$(".typeform-widget").load(function() {
+	console.log('hfg');
+	// $('.button.general.full.enabled.hover-effect').click(function() {
+	//   console.log('#someButton was clicked');
+	//   $('#logoTable').hide();
+	// });
 });
 </script>
 
