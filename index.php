@@ -1,6 +1,11 @@
 <!-- Change the width and height values to suit you best -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
 <style>
 	body, html {height:100%;}
 	body {overflow: hidden; }
@@ -25,6 +30,12 @@
     }
 </script>
 
+<script>
+	$('.button.general.full.enabled.hover-effect').click(function() {
+	  console.log('#someButton was clicked');
+	  // do something
+	});
+</script>
 
 <!-- Change the width and height values to suit you best -->
 <div class="typeform-widget" data-url="https://sunny269.typeform.com/to/mMMGSc" data-text="Slice Talent" style="width:100%;height:90vH;"></div>
