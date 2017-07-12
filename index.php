@@ -15,11 +15,21 @@
 	}, false);
 </script>
 
+<script type="text/javascript">
+    function toggle(){
+    	console.log("In Toggle");
+        var off=document.getElementsByClassName('button.general.full.enabled.hover-effect');
+        jQuery('off').click(function(){
+		  console.log("TEST");
+		});
+    }
+</script>
+
 
 <!-- Change the width and height values to suit you best -->
 <div class="typeform-widget" data-url="https://sunny269.typeform.com/to/mMMGSc" data-text="Slice Talent" style="width:100%;height:90vH;"></div>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-<div style="width:100%;height:20vH;">
+<div id="logoTable" style="width:100%;height:20vH;">
 	<table style="width:100%">
 	  <tr>
 	  	<th><img src="http://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png" alt="Y Combinator" style="width:30px;height:30px;"></th>
