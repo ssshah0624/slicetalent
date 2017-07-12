@@ -31,7 +31,7 @@
 </script>
 
 <script>
-	$('.button.general.full.enabled.hover-effect').click(function() {
+	$('.button.general').click(function() {
 	  console.log('#someButton was clicked');
 	  // do something
 	});
