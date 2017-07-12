@@ -53,7 +53,7 @@ $(document).ready(function() {
 	  console.log('#someButton was clicked');
 	  $('#logoTable').hide();
 	});
-}
+});
 </script>
 
 </html>
