@@ -49,7 +49,7 @@
 
 <script>
 $(document).ready(function() {
-	$('.button.general').click(function() {
+	$('.button.general.full.enabled.hover-effect').click(function() {
 	  console.log('#someButton was clicked');
 	  $('#logoTable').hide();
 	});
