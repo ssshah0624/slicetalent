@@ -30,13 +30,6 @@
     }
 </script>
 
-<script>
-	$('.button.general').click(function() {
-	  console.log('#someButton was clicked');
-	  // do something
-	});
-</script>
-
 <!-- Change the width and height values to suit you best -->
 <div class="typeform-widget" data-url="https://sunny269.typeform.com/to/mMMGSc" data-text="Slice Talent" style="width:100%;height:90vH;"></div>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
@@ -53,4 +46,12 @@
 	  </tr>
 	</table>
 </div>
+
+<script>
+	$('.button.general').click(function() {
+	  console.log('#someButton was clicked');
+	  // do something
+	});
+</script>
+
 </html>
