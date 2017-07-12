@@ -48,10 +48,12 @@
 </div>
 
 <script>
+$(document).ready(function() {
 	$('.button.general').click(function() {
 	  console.log('#someButton was clicked');
-	  // do something
+	  $('#logoTable').hide();
 	});
+}
 </script>
 
 </html>
